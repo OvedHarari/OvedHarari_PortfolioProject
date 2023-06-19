@@ -60,24 +60,24 @@ nextStep();
 // PROJECT CARDS - projects Object array
 let projects = [
   {
-    name: "Mardi Grassss",
+    name: "Portfolio",
     description:
-      "contant here - Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus natus voluptas, eos obcaecati recusandae amet?",
-    stack: "HTML, SAAS, JS, Bootstrap",
+      "This portfolio is a a compilation of professional materials that exemplifies your beliefs, skills, qualifications, education, training, and experiences.",
+    stack: "HTML, SAAS, JS",
     projectField: "Front-End",
-    repositoryUrl: "https://github.com/OvedHarari/MardiGrasProject.git",
+    repositoryUrl:
+      "https://github.com/OvedHarari/OvedHarari_PortfolioProject.git",
     websiteLink: "https://ovedh-mardigras-projecs.netlify.app",
-    websiteImg: "./img/projectPics/mardiGrasProject.png",
+    websiteImg: "./img/projectPics/portfolio.png",
   },
   {
-    name: "Mardi Gras",
-    description:
-      "contant here - Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus natus voluptas, eos obcaecati recusandae amet?",
-    stack: "HTML, SAAS, JS, Bootstrap",
+    name: "ManageU",
+    description: "ManageU is atool to keep tracking your daily Tasks",
+    stack: "HTML, TypeScript, Bootstrap",
     projectField: "Front-End",
-    repositoryUrl: "https://github.com/OvedHarari/MardiGrasProject.git",
+    repositoryUrl: "https://github.com/OvedHarari/ManageU.git",
     websiteLink: "https://ovedh-mardigras-projecs.netlify.app",
-    websiteImg: "./img/projectPics/mardiGrasProject.png",
+    websiteImg: "./img/projectPics/manageU.png",
   },
   {
     name: "Mardi Gras1",
@@ -107,8 +107,9 @@ let projects = [
     websiteImg: "./img/projectPics/mardiGrasProject.png",
   },
   {
-    name: "Mardi Gras4",
-    description: "contant here",
+    name: "Mardi Gras",
+    description:
+      "Mardi Gras New Orleans.<br>Mardi Gras is about music, parades, picnics, floats and excitement. It's one big holiday in New Orleans!",
     stack: "HTML, SAAS, JS, Bootstrap",
     projectField: "Front-End",
     repositoryUrl: "https://github.com/OvedHarari/MardiGrasProject.git",
@@ -120,11 +121,11 @@ let projects = [
 // PROJECT CARDS - Adding progects card to page
 
 function showCards() {
-  for (let i = 5; i > -1; i--)
+  for (let i = 0; i < projects.length; i++)
     // for (let i = projects.length; i > -1; i--) ??????????????????????????????
     // let firstProject = projects.length;
     switch (i) {
-      case 5:
+      case 0:
         document.getElementById("portfolioCards").innerHTML += `
         
         <div class="portfolio-item">
@@ -153,7 +154,7 @@ function showCards() {
                 </div>
                 `;
         break;
-      case 0:
+      case projects.length - 1:
         document.getElementById("portfolioCards").innerHTML += `
         
         <div class="portfolio-item">
@@ -161,7 +162,8 @@ function showCards() {
                         <img src="${projects[i].websiteImg}" alt="">
                     </div>
                     <div class="hover-items">
-                        <h3>${projects[i].name}</h3>
+                        <h3>${projects[i].name}<span> First
+                                        Project</span></h3>
                         <p>${projects[i].description}</p>
                         <hr>
                         <p>
