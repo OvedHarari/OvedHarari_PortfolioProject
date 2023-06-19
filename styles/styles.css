@@ -525,6 +525,9 @@ section {
   margin: 1rem 0;
   line-height: 2rem;
 }
+.contact-content-con .left-contact .btn-download {
+  padding-top: 1.5rem;
+}
 .contact-content-con .left-contact .contact-info .contact-item {
   display: flex;
   align-items: center;

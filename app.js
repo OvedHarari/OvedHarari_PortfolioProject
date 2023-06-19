@@ -16,7 +16,7 @@
 // COPYRIGHT YEAR DYNAMIC UPDATE
 const date = new Date();
 const currentYear = date.getFullYear();
-console.log(currentYear);
+// console.log(currentYear);
 document.getElementById("copyrightYear").innerText = " " + currentYear;
 
 // HOME - Typing animation
@@ -217,7 +217,7 @@ function showCards() {
 }
 showCards();
 
-// Set form in session storage function
+// Set contact form in sessionStorage function
 
 function setSessionStorage() {
   sessionStorage.setItem(
@@ -262,10 +262,7 @@ document
         setSessionStorage();
         setSuccessMessage();
         openPopup();
-
         document.getElementById("contactForm").reset();
-        // setModalSuccess();
-        // document.getElementById("email-message").value;
       },
 
       function (error) {
@@ -287,18 +284,14 @@ function closePopup() {
 function setSuccessMessage() {
   console.log("function 3 called");
   document.getElementById("popup").innerHTML = `
-                  <div class="success-icon"><i class="fas fa-check-circle"></i></div>
-     <h4 id="message-title">Thank You
-  ${JSON.parse(sessionStorage.getItem("from-name"))}!</h4>
-  <p class="text-start">The following was sent:<br><br>
-                         <b>Subject:</b> 
-                         ${JSON.parse(
-                           sessionStorage.getItem("from-subject")
-                         )}<br><br>
-                        <b>Message:</b><br>
-                         ${JSON.parse(
-                           sessionStorage.getItem("email-message")
-                         )}</p><br>
-                         <button class="close" type="button" onclick="closePopup()"></button>
+<div class="success-icon"><i class="fas fa-check-circle"></i></div>
+<h4 id="message-title">Thank You
+${JSON.parse(sessionStorage.getItem("from-name"))}!</h4>
+<p class="text-start">The following was sent:<br><br>
+<b>Subject:</b> 
+${JSON.parse(sessionStorage.getItem("from-subject"))}<br><br>
+<b>Message:</b><br>
+${JSON.parse(sessionStorage.getItem("email-message"))}</p><br>
+<button class="close" type="button" onclick="closePopup()"></button>
   `;
 }
