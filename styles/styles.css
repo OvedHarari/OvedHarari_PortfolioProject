@@ -19,6 +19,7 @@
   --color-grey-6: #12181b;
   --br-sm-2: 14px;
   --box-shadow-1: 0 3px 15px rgba(0, 0, 0, .3);
+  --box-shadow-2: 0 2px 5px rgba(248, 248, 248, 0.2);
 }
 
 .light-mode {
@@ -33,6 +34,8 @@
   --color-grey-4: #454e56;
   --color-grey-5: #f8f8f8;
   --color-grey-6: #12181b;
+  --box-shadow-1: 0 3px 15px rgba(0, 0, 0, .3);
+  --box-shadow-2: 0 2px 5px rgba(248, 248, 248, 0.2);
 }
 
 body {
@@ -423,6 +426,7 @@ section {
 .portfolios .portfolio-item {
   position: relative;
   border-radius: 15px;
+  box-shadow: var(--box-shadow-2);
 }
 .portfolios .portfolio-item img {
   width: 100%;
@@ -699,7 +703,7 @@ section {
   transform: translate(-50%, -50%) scale(0.1);
   text-align: center;
   padding: 0, 30px 30px;
-  box-shadow: 0 2px 5px rgba(248, 248, 248, 0.2);
+  box-shadow: var(--box-shadow-2);
   visibility: hidden;
   transition: transform 0.4s, top 0.4s;
 }
@@ -707,7 +711,7 @@ section {
   color: var(--color-secondary);
   font-size: 6rem;
   margin-top: -4rem;
-  text-shadow: 0 2px 5px rgba(248, 248, 248, 0.2);
+  text-shadow: var(--box-shadow-2);
 }
 .popup h4 {
   font-size: 38px;
@@ -874,6 +878,10 @@ section {
   .main-title h2 .bg-text {
     font-size: 2.3rem;
   }
+  .open-popup {
+    position: relative;
+    top: -45vh;
+  }
 }
 @media screen and (max-width: 1432px) {
   .container {
@@ -899,6 +907,10 @@ section {
   .main-title h2 .bg-text {
     font-size: 5.5rem;
   }
+  .open-popup {
+    position: relative;
+    top: -45vh;
+  }
 }
 @media screen and (max-width: 1250px) {
   .blogs {
@@ -911,13 +923,18 @@ section {
   .header-content .right-header {
     padding-right: 9rem;
   }
+  .open-popup {
+    position: relative;
+    top: -45vh;
+  }
 }
 @media screen and (max-width: 660px) {
-  .blogs {
-    grid-template-columns: repeat(1, 1fr);
-  }
   .portfolios {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .open-popup {
+    position: relative;
+    top: -45vh;
   }
 }
 @media screen and (max-width: 1070px) {
@@ -935,6 +952,10 @@ section {
   }
   .main-title h2 .bg-text {
     font-size: 4.5rem;
+  }
+  .open-popup {
+    position: relative;
+    top: -45vh;
   }
 }
 @media screen and (max-width: 970px) {
@@ -966,6 +987,10 @@ section {
     text-align: center;
     padding-top: 3rem;
   }
+  .open-popup {
+    position: relative;
+    top: -45vh;
+  }
 }
 @media screen and (max-width: 700px) {
   .container {
@@ -988,5 +1013,9 @@ section {
   }
   .main-title h2 .bg-text {
     font-size: 4rem;
+  }
+  .open-popup {
+    position: relative;
+    top: -45vh;
   }
 }/*# sourceMappingURL=styles.css.map */

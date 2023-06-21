@@ -77,7 +77,7 @@ let projects = [
     projectField: "Front-End",
     repositoryUrl: "https://github.com/OvedHarari/ManageU.git",
     websiteLink: "https://ovedh-mardigras-projecs.netlify.app",
-    websiteImg: "./img/projectPics/manageU.png",
+    websiteImg: "./img/projectPics/mardiGrasProject.png",
   },
   {
     name: "Mardi Gras1",
@@ -89,22 +89,22 @@ let projects = [
     websiteImg: "./img/projectPics/mardiGrasProject.png",
   },
   {
-    name: "Mardi Gras2",
+    name: "TechIt",
     description: "contant here",
     stack: "HTML, SAAS, JS, Bootstrap",
     projectField: "Front-End",
-    repositoryUrl: "https://github.com/OvedHarari/MardiGrasProject.git",
+    repositoryUrl: "https://github.com/OvedHarari/TechIt.git",
     websiteLink: "https://ovedh-mardigras-projecs.netlify.app",
-    websiteImg: "./img/projectPics/mardiGrasProject.png",
+    websiteImg: "./img/projectPics/myAccount.png",
   },
   {
-    name: "Mardi Gras3",
-    description: "contant here",
-    stack: "HTML, SAAS, JS, Bootstrap",
+    name: "ManageU",
+    description: "ManageU is atool to keep tracking your daily Tasks",
+    stack: "HTML, TypeScript, Bootstrap",
     projectField: "Front-End",
-    repositoryUrl: "https://github.com/OvedHarari/MardiGrasProject.git",
+    repositoryUrl: "https://github.com/OvedHarari/ManageU.git",
     websiteLink: "https://ovedh-mardigras-projecs.netlify.app",
-    websiteImg: "./img/projectPics/mardiGrasProject.png",
+    websiteImg: "./img/projectPics/manageU.png",
   },
   {
     name: "Mardi Gras",
@@ -253,6 +253,7 @@ document
     var templateParams = {
       from_name: document.getElementById("from-name").value,
       from_email: document.getElementById("from-email").value,
+      subject: document.getElementById("from-subject").value,
       message: document.getElementById("email-message").value,
       notes: "Check this out!",
     };
