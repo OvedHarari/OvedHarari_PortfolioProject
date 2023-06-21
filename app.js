@@ -63,7 +63,7 @@ let projects = [
     name: "Portfolio",
     description:
       "This portfolio is a a compilation of professional materials that exemplifies your beliefs, skills, qualifications, education, training, and experiences.",
-    stack: "HTML, SAAS, JS",
+    stack: "HTML, SAAS, JavaScript",
     projectField: "Front-End",
     repositoryUrl:
       "https://github.com/OvedHarari/OvedHarari_PortfolioProject.git",
@@ -71,18 +71,19 @@ let projects = [
     websiteImg: "./img/projectPics/portfolio.png",
   },
   {
-    name: "ManageU",
-    description: "ManageU is atool to keep tracking your daily Tasks",
-    stack: "HTML, TypeScript, Bootstrap",
+    name: "Weather App",
+    description:
+      "Weather App allows you to search for the current weather in Cities around the world",
+    stack: "HTML, CSS, JavaScript, REST API",
     projectField: "Front-End",
-    repositoryUrl: "https://github.com/OvedHarari/ManageU.git",
-    websiteLink: "https://ovedh-mardigras-projecs.netlify.app",
-    websiteImg: "./img/projectPics/mardiGrasProject.png",
+    repositoryUrl: "https://github.com/OvedHarari/WeatherApp.git",
+    websiteLink: "https://oved-harari-weatherapp.netlify.app/",
+    websiteImg: "./img/projectPics/weatherApp.png",
   },
   {
     name: "Mardi Gras1",
     description: "contant here",
-    stack: "HTML, SAAS, JS, Bootstrap",
+    stack: "HTML, SAAS, JavaScript, Bootstrap",
     projectField: "Front-End",
     repositoryUrl: "https://github.com/OvedHarari/MardiGrasProject.git",
     websiteLink: "https://ovedh-mardigras-projecs.netlify.app",
@@ -91,7 +92,7 @@ let projects = [
   {
     name: "TechIt",
     description: "contant here",
-    stack: "HTML, SAAS, JS, Bootstrap",
+    stack: "HTML, SAAS, JavaScript, Bootstrap",
     projectField: "Front-End",
     repositoryUrl: "https://github.com/OvedHarari/TechIt.git",
     websiteLink: "https://ovedh-mardigras-projecs.netlify.app",
@@ -110,7 +111,7 @@ let projects = [
     name: "Mardi Gras",
     description:
       "Mardi Gras New Orleans.<br>Mardi Gras is about music, parades, picnics, floats and excitement. It's one big holiday in New Orleans!",
-    stack: "HTML, SAAS, JS, Bootstrap",
+    stack: "HTML, SAAS, JavaScript, Bootstrap",
     projectField: "Front-End",
     repositoryUrl: "https://github.com/OvedHarari/MardiGrasProject.git",
     websiteLink: "https://ovedh-mardigras-projecs.netlify.app",
