@@ -14,7 +14,7 @@ data after form validation, and only after the email succesfully sent, popup wit
 
 ## Getting Started
 
-Link to the portfolio hosted on "Netlify.com" - 
+Link to the portfolio hosted on "Netlify.com" - https://oved-harari-portfolio.netlify.app
 
 ### Dependencies
 
