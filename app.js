@@ -92,7 +92,7 @@ let projects = [
   },
   {
     name: "Electrix Shop",
-    description: "contant here",
+    description: "Electrix Shop is an example of ecommers store",
     stack: "HTML, JavaScript",
     projectField: "Front-End",
     repositoryUrl: "https://github.com/OvedHarari/electrixshop.git",
