@@ -67,7 +67,7 @@ let projects = [
     projectField: "Front-End",
     repositoryUrl:
       "https://github.com/OvedHarari/OvedHarari_PortfolioProject.git",
-    websiteLink: "https://ovedh-mardigras-projecs.netlify.app",
+    websiteLink: "https://oved-harari-portfolio.netlify.app",
     websiteImg: "./img/projectPics/portfolio.png",
   },
   {
@@ -77,34 +77,35 @@ let projects = [
     stack: "HTML, CSS, JavaScript, REST API",
     projectField: "Front-End",
     repositoryUrl: "https://github.com/OvedHarari/WeatherApp.git",
-    websiteLink: "https://oved-harari-weatherapp.netlify.app/",
+    websiteLink: "https://oved-harari-weatherapp.netlify.app",
     websiteImg: "./img/projectPics/weatherApp.png",
   },
   {
-    name: "Mardi Gras1",
-    description: "contant here",
-    stack: "HTML, SAAS, JavaScript, Bootstrap",
+    name: "My Account",
+    description:
+      "My Account is a tool that helps you keep track on your Bank acount balance",
+    stack: "HTML, JavaScript, OOP, Bootstrap",
     projectField: "Front-End",
-    repositoryUrl: "https://github.com/OvedHarari/MardiGrasProject.git",
-    websiteLink: "https://ovedh-mardigras-projecs.netlify.app",
-    websiteImg: "./img/projectPics/mardiGrasProject.png",
-  },
-  {
-    name: "TechIt",
-    description: "contant here",
-    stack: "HTML, SAAS, JavaScript, Bootstrap",
-    projectField: "Front-End",
-    repositoryUrl: "https://github.com/OvedHarari/TechIt.git",
-    websiteLink: "https://ovedh-mardigras-projecs.netlify.app",
+    repositoryUrl: "https://github.com/OvedHarari/ACCOUNT.git",
+    websiteLink: "https://ovedh-myaccount.netlify.app",
     websiteImg: "./img/projectPics/myAccount.png",
   },
   {
+    name: "Electrix Shop",
+    description: "contant here",
+    stack: "HTML, JavaScript",
+    projectField: "Front-End",
+    repositoryUrl: "https://github.com/OvedHarari/electrixshop.git",
+    websiteLink: "https://oved-harari-electrixshop.netlify.app",
+    websiteImg: "./img/projectPics/electrixShop.png",
+  },
+  {
     name: "ManageU",
-    description: "ManageU is atool to keep tracking your daily Tasks",
+    description: "ManageU is a tool to keep tracking your daily Tasks",
     stack: "HTML, TypeScript, Bootstrap",
     projectField: "Front-End",
     repositoryUrl: "https://github.com/OvedHarari/ManageU.git",
-    websiteLink: "https://ovedh-mardigras-projecs.netlify.app",
+    websiteLink: "https://ovedh-manageu.netlify.app/",
     websiteImg: "./img/projectPics/manageU.png",
   },
   {
@@ -148,7 +149,8 @@ function showCards() {
                             <a href="${projects[i].repositoryUrl}" class="icon" target="_blank">
                                 <i class="fab fa-github"></i>
                             </a>
-                            <a href="${projects[i].websiteLink}" class="icon" target="_blank">                                                         <img src="img/icons/netlify.png" alt="">
+                            <a href="${projects[i].websiteLink}" class="icon" target="_blank">  
+                            <i class="fab fa-edge-legacy"></i>                                                       
                             </a>
                         </div>
                     </div>
@@ -178,7 +180,7 @@ function showCards() {
                                 <i class="fab fa-github"></i>
                             </a>
                             <a href="${projects[i].websiteLink}" class="icon" target="_blank">
-                                <img src="img/icons/netlify.png" alt="">
+                               <i class="fab fa-edge-legacy"></i> 
                             </a>
                         </div>
                     </div>
@@ -208,7 +210,7 @@ function showCards() {
                                 <i class="fab fa-github"></i>
                             </a>
                             <a href="${projects[i].websiteLink}" class="icon" target="_blank">
-                                <img src="img/icons/netlify.png" alt="">
+                                <i class="fab fa-edge-legacy"></i> 
                             </a>
                         </div>
                     </div>
