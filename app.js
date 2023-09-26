@@ -60,6 +60,28 @@ nextStep();
 // PROJECT CARDS - projects Object array
 let projects = [
   {
+    name: "Mind Your Own Business V2",
+    description:
+      "The is a convertion of 'Mind Your Own Business' project fome Frontend to a FULL-STACK project working with MongoDB",
+    stack: "React.ts, Google APIs, Bootstrap, Node.js, MongoDB",
+    projectField: "Full-Stack",
+    repositoryUrl:
+      "https://github.com/OvedHarari/mind_your_own_business_V2.git",
+    websiteLink: "https://github.com/OvedHarari/mind_your_own_business_V2.git",
+    websiteImg: "./img/projectPics/MYOB_V2.png",
+  },
+  {
+    name: "Mind Your Own Business",
+    description:
+      "The is a Frontend project of a platform that connects businesses with potential customers in a user-friendly way. Users can Sign up to platform as casual users or business users and an Admin user can grant Admin permition to other users.",
+    stack: "React.ts, Google APIs, Bootstrap, JSON DB",
+    projectField: "Front-End",
+    repositoryUrl:
+      "https://github.com/OvedHarari/mind_your_own_business.git",
+    websiteLink: "https://github.com/OvedHarari/mind_your_own_business.git",
+    websiteImg: "./img/projectPics/MYOB.png",
+  },
+  {
     name: "Portfolio",
     description:
       "This portfolio is a a compilation of professional materials that exemplifies your beliefs, skills, qualifications, education, training, and experiences.",
