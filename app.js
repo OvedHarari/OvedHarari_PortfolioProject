@@ -73,7 +73,7 @@ let projects = [
   {
     name: "Mind Your Own Business",
     description:
-      "The is a Frontend project of a platform that connects businesses with potential customers in a user-friendly way. Users can Sign up to platform as casual users or business users and an Admin user can grant Admin permition to other users.",
+      "The is a Frontend project of a platform that connects businesses with potential customers in a user-friendly way.",
     stack: "React.ts, Google APIs, Bootstrap, JSON DB",
     projectField: "Front-End",
     repositoryUrl:
