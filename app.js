@@ -22,7 +22,7 @@ document.getElementById("copyrightYear").innerText = " " + currentYear;
 // HOME - Typing animation
 const sentences = [
   `Hi, I'm <span>Oved Harari.</span>
-                    A Full Stack Web Developer and beyond that.`,
+                    A Full Stack Web Developer and beyond that . . .`,
 ];
 
 const sentence1El = document.querySelector(".typing-animation");
